@@ -1,0 +1,26 @@
+#profileIcon
+{
+	height:50px;
+	width:50px;
+	
+    
+}
+#profile
+{
+		border-radius:50%;
+		width:100px;
+}
+#card
+{
+	
+		transition:box-shadow .6s;
+	
+
+}
+#card:hover
+{
+	
+	box-shadow:10px 10px;
+
+	
+}

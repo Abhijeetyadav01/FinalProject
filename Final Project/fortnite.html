@@ -1,0 +1,323 @@
+<html>
+	<head>
+		<title>Fortnite</title>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+				<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+				<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+				<link rel="stylesheet" href="assets/css/Footer-with-social-icons.css">
+				<link rel="stylesheet" type="text/css" href="maincss1.css">
+		
+		<style>
+			#apexImg
+			{
+				height:300px;
+				width:400px;
+				
+			}
+			#gameCard
+			{
+				height:400px;
+				width:720px;
+			}
+			#gameInfo
+			{
+				height:500px;
+				width:1000px;
+				background-color:white;
+				opacity:0.7;
+			}
+			body
+			{
+				background-image: linear-gradient(-90deg, #201818, #482626);
+			}
+			
+			
+			#profileIcon
+			{
+				height:50px;
+				width:50px;
+				
+				
+			}
+			#profile
+			{
+					width:100px;
+			}
+			#card
+			{
+				
+				transition:box-shadow .3s;
+				transition:transform .3s;
+				background-color:white;
+				overflow:block;
+				margin-top:10px;
+			
+
+			}
+			#card:hover
+			{
+				
+				box-shadow:10px 10px #696969;
+				transform:scale(1.1);
+				background-color:black;
+				color:white;
+				
+			}
+			#opacity
+			{
+				background-color:white;
+				opacity:0.7;
+			}
+			#newsgame
+			{
+				border-spacing:20px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand"><img src="Icon.jpg" style="width:70px;"></a>
+				</div>
+		
+					<ul class="nav navbar-nav ">
+						<li><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+						<li class="dropdown">
+							<a  class="dropdown-toggle" data-toggle="dropdown" href="#">Page
+								<span class="caret"></span></a>
+							
+							<ul class="dropdown-menu">
+								<li><a href="action.html">Action</a></li>
+								<li><a href="shooter.html">Shooter</a></li>
+								<li><a href="story.html">Story</a></li>
+								<li><a href="battle.html">Battle Royale</a></li>
+							</ul>
+						</li>
+						<li><a href="ranking.html">Ranking</a></li>
+						<li><a href="news.html">Latest News</a></li>
+						<li><a href="aboutus.html">About us</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="search.html"><span class="glyphicon glyphicon-search"></span>Search</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-log-in" ></span> Login</a></li>
+					</ul>
+				
+			</div>
+		</nav>
+		<center>
+			<table id="gameInfo">
+				<tr>
+					<td>
+						<h1>Fortnite</h1>
+						<img src="rank3.jpg" id="apexImg" align="left">
+						<h5>Tags</h5>
+						<a href="Battle.html"><span class="label label-info">Battle Royle</span></a>
+						<a href="shooter.html"><span class="label label-info">Shooter</span></a>
+						<a href="" data-toggle="modal" data-target="#Tags"><span class="label label-info">More +</span></a>
+					</td>
+					
+				
+					<td>
+						<div class="card">
+							 <div class="card-body text-center" id="gamecard">
+								<p class="card-text">Apex Legends is a free-to-play battle royale game developed by Respawn Entertainment and published	
+													   by Electronic Arts. It was released for Microsoft Windows, PlayStation 4, and Xbox One on February 4, 2019, 
+													   without any prior announcement or marketing.
+
+														The gameplay of Apex fuses elements from a variety of video games, including Respawn's own Titanfall series,
+														battle royale games, class-based shooters, and those with evolving narratives. Approximately sixty players
+														are pitted against each other on an island in squads of three, with one player controlling where their squad 
+														lands. The squads then must scavenge for weapons and other resources to fight other squads, during which the
+														play area gradually constricts in size until one squad remains, thus ending the match. The game also features 
+														care packages and the ability to revive your teammates within a certain amount of time. Communication with 
+														team members can be done through voice chat or through a ping system, allowing teammates to mark supplies,
+														locations, and enemies with ease. The game features nine heroes to choose from (though three of them are locked
+														by default), and features a microtransaction system for cosmetic items.
+								</p>
+								<a href="https://www.youtube.com/watch?v=UMJb_mkqynU" class="card-link" target="_blank"><button type="button" class="btn btn-info">Watch trailer</button></a>
+								<a href="https://www.origin.com/ind/en-us/store/apex/apex" class="card-link" target="_blank"><button type="button" class="btn btn-info">Official Website</button></a>
+							</div>
+						</div>
+					
+					</td>
+				</tr>
+			</table>
+		</center>
+		<div>
+				<div class="modal" id="Tags">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title">All Tags</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<a href="battle.html"><span class="label label-info">Battle Royle</span></a>
+								<a href="shooter.html"><span class="label label-info">Shooter</span></a>
+								<a href="fps.html"><span class="label label-info">FPS</span></a>
+								<a href="action.html"><span class="label label-info">Action</span></a>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>	
+							</div>
+					
+						</div>
+					</div>
+				</div>
+			  
+		</div>
+		<div class="modal" id="login">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title">Login</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<form action="/action_page.php">
+									<div class="form-group">
+										<label for="email">Email address:</label>
+										<input type="email" class="form-control" id="email">
+									</div>
+									<div class="form-group">
+										<label for="pwd">Password:</label>
+										<input type="password" class="form-control" id="pwd">
+									 </div>
+									 <div class="checkbox">
+										<label><input type="checkbox"> Remember me</label>
+									 </div>
+									 <button type="submit" class="btn btn-default">Submit</button>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								
+							</div>
+					
+						</div>
+					</div>
+		</div>
+		
+		<div class="container" >
+			<h2 id="opacity">Latest News</h2>
+			<table id="newsgame" cellspacing="20" cellpadding="20">
+			<tr>
+			<td>
+			<div class="card" >
+				 <div class="card-body text-center" id="card" style="height:350px; width:200px;">
+					<div>
+						<img class="card-img-right" id="profile" src="apexnews1.jpg" alt="Card image">
+					</div>
+					<h3 class="card-title">New Season</h3>
+					<p class="card-text">On 2 july there was a new update <a href="newspage.html">read more...</a></p>
+				</div>
+			</div>
+			</td>
+				<td>
+				<pre>  </pre>
+				</td>
+			<td>
+			<div class="card">
+				 <div class="card-body text-center" id="card" style="height:350px; width:200px;">
+					<div>
+						<img class="card-img-right" id="profile" src="apexnews2.jpg" alt="Card image">
+					</div>
+					<h3 class="card-title">New Legend</h3>
+					<p class="card-text">New season here comes the new legend <a href="newspage.html">read more...</a></p>
+				</div>
+			</div>
+			</td>
+			</tr>
+			</table>
+		</div>
+		</div>
+		<div class="container">
+			<h3 id="opacity">About game</h3>
+			<p id="opacity">Apex Legends is a free-to-play game associated with the Battle Royale genre.
+			It was developed by Respawn Entertainment and published by Electronic Arts . The setting is
+			based on the Titanfall universe . The game was announced on February 4, 2019 and released the
+			same day for Windows , Xbox One and PlayStation 4 .</p>
+			<table>
+				<caption id="opacity">Gameplay</caption>
+				<tr>
+					<td><img src="apexgame1.jpg" style="height:200px; width:400px; margin-right:20px;">    </td>
+					<td><img src="apexgame2.jpg" style="height:200px; width:400px;">    </td>
+				</tr>
+			</table>
+			<p id="opacity">Apex Legends is a battle royale game borrowing concepts from the hero 
+			shooter genre of games, and is set 30 years after the events of Titanfall 2 with the
+			Militia-IMC conflict that was central to the main line Titanfall games over, leaving many
+			Frontier worlds without a central governing and leading to the rebirth of an old bloodsport[1].
+			Apex Legends differs from most battle royale games by incorporating Legends, pre-defined heroes
+			with unique abilities that fall into roles such as Offense, Defense, Support and Recon.
+
+			As with other hero shooters, players select from one of about ten pre-made Legends, each 
+			which has unique appearances and sets of passive and activated abilities with cooldown timers,
+			along with an ultimate ability that requires charging up over the period of the match. Players 
+			are grouped into teams of three, with each player selecting a unique Legend in turn, and each 
+			match features up to twenty teams competing for a total of sixty competitors. All teams start 
+			with no equipment aside from a melee attack and their Legend's abilities and are flown over the 
+			game's map via a dropship which flies in a straight line from a random position on the edge of 
+			the map to cross to another position on the opposite side. Each team is assigned a "Jump Master"
+			who decides when the team will exit the craft and guide them onto any spot on the map that they 
+			can reach. The map contains a variety of locations on the map include military bunkers, watchtowers, 
+			and depots, squalid slums and prefabricated housing, industrial facilities such as a water treatment
+			plant, or the wandering supply ships which contain high-tier loot.</p>
+		</div>
+		 <footer id="myFooter" style="color:white; a:link:color:white;">
+        <div class="container" style="width:100%; background-color:#484848;">
+            <div class="row">
+                <div class="col-sm-3 myCols">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="term.html">Company Information</a></li>
+                        <li><a href="term.html">Contact us</a></li>
+                        <li><a href="term.html">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="term.html">FAQ</a></li>
+                        <li><a href="term.html">Help desk</a></li>
+                        <li><a href="term.html">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="term.html">Terms of Service</a></li>
+                        <li><a href="term.html">Terms of Use</a></li>
+                        <li><a href="term.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<div style="width:100%; background-color:black;">
+		<center>
+        <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook-official"></i></a>
+            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p style="color:white;">© 2019 Copyright Text </p>
+        </div>
+		</center>
+		<div>
+    </footer>
+	</body>
+</html>

@@ -1,0 +1,205 @@
+<html>
+	<head>
+		<title>Story Mode</title>
+			<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+				<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+				<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+				<link rel="stylesheet" href="assets/css/Footer-with-social-icons.css">
+				<link rel="stylesheet" type="text/css" href="maincss1.css">
+			
+		<style>
+		body
+		{
+			
+			background-color:grey;
+			
+		
+		}
+			#gameCard
+			{
+				height:100px;
+				width:70%;
+				border:1px solid black;
+				transition: all .2s ease-in-out;
+				overflow:hidden;
+				background-color:#b784a7;
+				
+				
+			}
+			#gameCard:hover
+			{
+				transform:scale(1.1);
+				box-shadow: 6px 7px #353839;
+				background-color:black;
+				color:white;
+			}
+			#gameImg
+			{
+				height:100px;
+				width:100px;
+				float:left;
+			}
+			#rankingImg
+			{
+				height:150px;
+				width:50%;
+			}
+				
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand"><img src="Icon.jpg" style="width:70px;"></a>
+				</div>
+		
+					<ul class="nav navbar-nav ">
+						<li><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+						<li class="dropdown">
+							<a  class="dropdown-toggle" data-toggle="dropdown" href="#">Page
+								<span class="caret"></span></a>
+							
+							<ul class="dropdown-menu">
+								<li><a href="action.html">Action</a></li>
+								<li><a href="shooter.html">Shooter</a></li>
+								<li><a href="story.html">Story</a></li>
+								<li><a href="battle.html">Battle Royale</a></li>
+							</ul>
+						</li>
+						<li><a href="ranking.html">Ranking</a></li>
+						<li><a href="news.html">Latest News</a></li>
+						<li><a href="aboutus.html">About us</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="search.html"><span class="glyphicon glyphicon-search"></span>Search</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-log-in" ></span> Login</a></li>
+					</ul>
+				
+			</div>
+		</nav>
+		<div class="modal" id="login">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title">Login</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<form action="/action_page.php">
+									<div class="form-group">
+										<label for="email">Email address:</label>
+										<input type="email" class="form-control" id="email">
+									</div>
+									<div class="form-group">
+										<label for="pwd">Password:</label>
+										<input type="password" class="form-control" id="pwd">
+									 </div>
+									 <div class="checkbox">
+										<label><input type="checkbox"> Remember me</label>
+									 </div>
+									 <button type="submit" class="btn btn-default">Submit</button>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								
+								
+							</div>
+					
+						</div>
+					</div>
+		</div>
+		<div style="height:100%;">
+		<div class="container">
+			<hr>
+			<h2>Gnere-Action</h2>
+			<hr>
+		</div>
+		<center>
+		<div id="gameCard">
+			<img src="rank3.jpg" alt="gamgImg" id="gameImg">
+			<p>Fortnite is an online video game developed by Epic Games and released in 2017. It is available 
+			in three distinct game mode versions that otherwise share the same general gameplay and game engine:
+			Fortnite: Save the World, a cooperative shooter-survival game for up to four players to fight 
+			off zombie-like creatures and defend objects with fortifications they can build, Fortnite Battle
+			Royale, a free-to-play battle royale game where up to 100 players fight to be the last
+			person standing, and Fortnite Creative, where players are given complete freedom to create
+			worlds and battle arenas. The first two game modes were released in 2017 as early access 
+			titles and Cre<a href="fortnite.html">read more...</a></p>
+		</div>
+		<div id="gameCard">
+			<img src="rank4.jpg" alt="gamgImg" id="gameImg">
+			<p>God of War[a] is an action-adventure video game developed by Santa Monica Studio and published by 
+			Sony Interactive Entertainment (SIE). Released on April 20, 2018, for the PlayStation 4 (PS4) console,
+			it is the eighth installment in the God of War series, the eighth chronologically, and the sequel
+			to 2010's God of War III. Unlike previous games, which were loosely based on Greek mythology, this
+			installment is loosely based on Norse mythology, with the majority of it set in ancient Norway in
+			the realm of Midgard. For the first time in the series, there are two protagonists: Kratos, the former 
+			Greek God of War who rem<a href="god4.html">read more...</a></p>
+		</div>
+		<div id="gameCard">
+			<img src="rank5.jpg" alt="gamgImg" id="gameImg">
+			<p>Grand Theft Auto V is an action-adventure video game developed by Rockstar North and published by 
+			Rockstar Games. It was released in September 2013 for PlayStation 3 and Xbox 360, in November 2014 for 
+			PlayStation 4 and Xbox One, and in April 2015 for Microsoft Windows. It is the first main entry in the 
+			Grand Theft Auto series since 2008's Grand Theft Auto IV. Set within the fictional state of San Andreas
+			, based on South<a href="gta5.html">read more...</a></p>
+		</div>
+		</div>
+		</center>
+		  <footer id="myFooter" style="color:white; a:link:color:white;">
+        <div class="container" style="width:100%; background-color:#484848;">
+            <div class="row">
+                <div class="col-sm-3 myCols">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="term.html">Company Information</a></li>
+                        <li><a href="term.html">Contact us</a></li>
+                        <li><a href="term.html">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="term.html">FAQ</a></li>
+                        <li><a href="term.html">Help desk</a></li>
+                        <li><a href="term.html">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="term.html">Terms of Service</a></li>
+                        <li><a href="term.html">Terms of Use</a></li>
+                        <li><a href="term.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<div style="width:100%; background-color:black;">
+		<center>
+        <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook-official"></i></a>
+            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p style="color:white;">© 2019 Copyright Text </p>
+        </div>
+		</center>
+		<div>
+    </footer>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+#capText
+{
+	position:absolute;
+	left:0%;
+	bottom:0%;
+	background-color:Black;
+	opacity:0.7;
+
+}
+#capLink
+{
+	position:absolute;
+	right:0%;
+	bottom:0%;
+	background-color:Black;
+	opacity:0.7;
+}
